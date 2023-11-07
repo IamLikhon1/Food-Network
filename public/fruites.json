@@ -1,0 +1,67 @@
+[
+    {
+        "id":1,
+        "name":"Oranges",
+        "subTitle":"Vitamin C",
+        "image":"https://img.freepik.com/free-photo/orange-white-white_144627-16571.jpg?w=740&t=st=1699340642~exp=1699341242~hmac=e8a2097e185a6a2eeed3f2ddc6a71134dcd48f061163833df8b9b476083bcb81",
+        "pictureOne":"https://img.freepik.com/free-photo/slice-orange_144627-3974.jpg?w=1060&t=st=1699355532~exp=1699356132~hmac=1cf43ef98abcf598a8e86233c9388e6b49f5eaca8f06a01a02fe6da6453f7600",
+        "pictureTwo":"https://img.freepik.com/premium-photo/orange-crop-isolated_90839-212.jpg?w=740"
+    },
+    {
+        "id":2,
+        "name":"Apples",
+        "subTitle":"Vitamin C",
+        "image":"https://img.freepik.com/free-photo/two-red-apples-isolated-white_114579-73124.jpg?w=1060&t=st=1699340727~exp=1699341327~hmac=7901d269ff4b0c8585b33369f261846c6cddd74dc32dc3c74807187eb4e9dd8f",
+        "pictureOne":"https://img.freepik.com/free-photo/apples-red-fresh-mellow-juicy-perfect-whole-white-desk_179666-271.jpg?w=1060&t=st=1699355598~exp=1699356198~hmac=347d24e4fdc04cb07be54f53b43f9134bc73c44b74a11225c5871d3916461dd9",
+        "pictureTwo":"https://img.freepik.com/premium-photo/red-apple-with-leaf-isolated-white-background_743855-41893.jpg?w=740"
+    },
+    {
+        "id":3,
+        "name":"Avocado",
+        "subTitle":"Vitamin B6",
+        "image":"https://img.freepik.com/free-photo/green-avocados-white-surface_144627-45153.jpg?w=996&t=st=1699340759~exp=1699341359~hmac=6103caa22a0efb9ffcfd2e07b5cd0241e08439b80599b0520946888db5ddf85d",
+        "pictureOne":"https://img.freepik.com/free-photo/green-avocados_144627-43538.jpg?w=826&t=st=1699355705~exp=1699356305~hmac=0d52a9d8ba2bee5bc0356cb9e4576aff2fc1eeab26a09480e6d8b893f757e9f2",
+        "pictureTwo":"https://img.freepik.com/premium-photo/avocado-fruit-with-leafs-isolated-photo-avocado-whole-half-slice-leaves-white-background_659151-1087.jpg?w=1060"
+    },
+    {
+        "id":4,
+        "name":"Strawberries",
+        "subTitle":"Vitamin C",
+        "image":"https://img.freepik.com/free-photo/strawberry-berry-levitating-white-background_485709-57.jpg?w=740&t=st=1699340810~exp=1699341410~hmac=cebdd996232063df58b404fb607b223275ed87330d8182e7a3411015443d9d2a",
+        "pictureOne":"https://img.freepik.com/free-photo/strawberries-cut-half-whole-berries-ripe-berries-top-view-background-ripe-strawberries-delicious-natural-dessert_166373-2358.jpg?w=360&t=st=1699355748~exp=1699356348~hmac=abf3e1f42c88aad171de3064b9f18b46bc337c94865cd589e639f005948f8f6c",
+        "pictureTwo":"https://img.freepik.com/free-photo/red-fresh-strawberries-with-green-leaves_114579-10506.jpg?w=1060&t=st=1699355769~exp=1699356369~hmac=906653dd712bcab9c46168b4a9192bb26db715a99a71945fe2a32309471d6210"
+    },
+    {
+        "id":5,
+        "name":"Mangoes",
+        "subTitle":"Vitamin A, C",
+        "image":"https://img.freepik.com/free-photo/photo-mango-half-white-background_125540-4595.jpg?t=st=1699342014~exp=1699345614~hmac=0630b0c08730a8e403983f788dd5063e4fd24b3658df3a24f771d5dc4077ccba&w=1060",
+        "pictureOne":"https://img.freepik.com/premium-photo/close-up-view-mangoes-fruit-mango-cut-cubes-isolated_67155-6571.jpg?w=1380",
+        "pictureTwo":"https://img.freepik.com/free-photo/mango-table_144627-16763.jpg?w=740&t=st=1699355833~exp=1699356433~hmac=6dd18df57ca80319dfa2dc1c28d87e8ce642dda45c261d7d9235cfabfb20fcf4"
+    },
+    {
+        "id":6,
+        "name":"Blueberries",
+        "subTitle":"Vitamin C, K",
+        "image":"https://img.freepik.com/premium-photo/fresh-blueberries-with-bluberry-leaves-isolated-white-background_117038-17803.jpg?w=740",
+        "pictureOne":"https://img.freepik.com/premium-photo/fresh-blueberries_72967-47.jpg?w=740",
+        "pictureTwo":"https://img.freepik.com/free-photo/closeup-vertical-shot-blueberries-with-water-droplets-leaves_181624-1166.jpg?w=1060&t=st=1699355859~exp=1699356459~hmac=df4dd93983799e2ad11f198c8fab0d0e58f3d8cd8a2b6a58aa76185f23bf9fd2"
+    },
+    {
+        "id":7,
+        "name":"Grapes",
+        "subTitle":"Vitamin C, K",
+        "image":"https://img.freepik.com/free-photo/green-red-grape-isolated-white_1232-1957.jpg?w=1060&t=st=1699340905~exp=1699341505~hmac=994c17f315023f1513f4297171a0d64c28f35e1eae2599c54d72e5814170f0d7",
+        "pictureOne":"https://img.freepik.com/free-photo/fresh-red-grapes-with-leaves-isolated-white_167946-37.jpg?w=360&t=st=1699355911~exp=1699356511~hmac=53aefbc5d3f2c32f69894d36eb63fbb1544cb3b537bedd037b9b6f0c2d7d62e6",
+        "pictureTwo":"https://img.freepik.com/free-photo/summer-black-blue-sweet-ripe_1203-5405.jpg?w=360&t=st=1699355925~exp=1699356525~hmac=c307fab116c85210fea0cab931d308e2b3eaf3d9c322e39ab8e29ce7c8a49480"
+    },
+    {
+        "id":8,
+        "name":"Pineapples",
+        "subTitle":"Vitamin C, K",
+        "image":"https://img.freepik.com/free-photo/raw-fresh-texture-vitamin-fruit_1172-220.jpg?w=740&t=st=1699340961~exp=1699341561~hmac=57c2bd67894136118ce67295af4fcafb9f245f6039ff75008346b75c1a08218d",
+        "pictureOne":"https://img.freepik.com/free-photo/pineapple-fruit_1203-7746.jpg?w=360&t=st=1699355980~exp=1699356580~hmac=be3bc41196a897de2acd2fbb47e805af85ac2699260670294abfe2c121b27730",
+        "pictureTwo":"https://img.freepik.com/free-vector/3d-realism-pineapple-juice-fresh-fruit-vector-illustration_433751-13.jpg?w=740&t=st=1699355963~exp=1699356563~hmac=d4751f325124e1a387f6737ff23000bda1f736967eb4405eb209a1aa78036789"
+    }
+]
+
