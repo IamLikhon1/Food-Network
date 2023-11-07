@@ -14,10 +14,10 @@ const Main = () => {
           <div>
             <SideMini />
           </div>
-          <div className="grid lg:grid-cols-12 lg:mt-14">
+          <div className="grid lg:grid-cols-12 lg:mt-14  w-full">
             {/* side mini bar */}
             {/* category */}
-            <div className="col-span-2 mx-2">
+            <div className="col-span-3 mx-2">
               <Category />
             </div>
 
@@ -29,7 +29,7 @@ const Main = () => {
 
             {/* filter */}
 
-            <div className="col-span-3 mx-2">
+            <div className="col-span-2 mx-2">
               <Filter />
             </div>
           </div>

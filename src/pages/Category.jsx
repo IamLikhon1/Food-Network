@@ -11,16 +11,16 @@ const Category = () => {
     .then(data=>setFruitesLits(data))
   },[]);
   return (
-    <div className="py-10 h-full w-[300px] rounded-md bg-white shadow-xl">
+    <div className="h-full w-full rounded-md bg-white shadow-xl pt-2 ">
       {/* navBar */}
       <div>
-        <div className="flex px-3 py-1 justify-between rounded-md items-center gap-5 shadow-md bg-red-50 mx-2">
-          <div className="py-2">
+        <div className="flex  justify-between rounded-md items-center gap-5 shadow-md bg-red-50 mx-2">
+          <div className="py-2 px-3">
             <input
               type="text"
               name=""
               id=""
-              className="px-5 py-1 rounded-md"
+              className="px-3 py-1 rounded-md"
               placeholder="Search Best Food"
             />
           </div>
