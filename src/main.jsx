@@ -19,7 +19,7 @@ const router = createBrowserRouter([
           path:':id',
           element:<MainBody/>,
           loader:()=>fetch('/fruites.json')
-        }
+        },
     ]
   },
 ]);
