@@ -28,9 +28,10 @@
         "name":"Strawberries",
         "subTitle":"Vitamin C",
         "image":"https://img.freepik.com/free-photo/strawberry-berry-levitating-white-background_485709-57.jpg?w=740&t=st=1699340810~exp=1699341410~hmac=cebdd996232063df58b404fb607b223275ed87330d8182e7a3411015443d9d2a",
-        "pictureOne":"https://img.freepik.com/free-photo/strawberries-cut-half-whole-berries-ripe-berries-top-view-background-ripe-strawberries-delicious-natural-dessert_166373-2358.jpg?w=360&t=st=1699355748~exp=1699356348~hmac=abf3e1f42c88aad171de3064b9f18b46bc337c94865cd589e639f005948f8f6c",
-        "pictureTwo":"https://img.freepik.com/free-photo/red-fresh-strawberries-with-green-leaves_114579-10506.jpg?w=1060&t=st=1699355769~exp=1699356369~hmac=906653dd712bcab9c46168b4a9192bb26db715a99a71945fe2a32309471d6210"
+        "pictureOne":"https://img.freepik.com/free-photo/red-fresh-strawberries-with-green-leaves_114579-10506.jpg?w=1060&t=st=1699355769~exp=1699356369~hmac=906653dd712bcab9c46168b4a9192bb26db715a99a71945fe2a32309471d6210",
+        "pictureTwo":" https://img.freepik.com/free-photo/strawberries-cut-half-whole-berries-ripe-berries-top-view-background-ripe-strawberries-delicious-natural-dessert_166373-2358.jpg?w=360&t=st=1699355748~exp=1699356348~hmac=abf3e1f42c88aad171de3064b9f18b46bc337c94865cd589e639f005948f8f6c"
     },
+   
     {
         "id":5,
         "name":"Mangoes",
@@ -60,8 +61,8 @@
         "name":"Pineapples",
         "subTitle":"Vitamin C, K",
         "image":"https://img.freepik.com/free-photo/raw-fresh-texture-vitamin-fruit_1172-220.jpg?w=740&t=st=1699340961~exp=1699341561~hmac=57c2bd67894136118ce67295af4fcafb9f245f6039ff75008346b75c1a08218d",
-        "pictureOne":"https://img.freepik.com/free-photo/pineapple-fruit_1203-7746.jpg?w=360&t=st=1699355980~exp=1699356580~hmac=be3bc41196a897de2acd2fbb47e805af85ac2699260670294abfe2c121b27730",
-        "pictureTwo":"https://img.freepik.com/free-vector/3d-realism-pineapple-juice-fresh-fruit-vector-illustration_433751-13.jpg?w=740&t=st=1699355963~exp=1699356563~hmac=d4751f325124e1a387f6737ff23000bda1f736967eb4405eb209a1aa78036789"
+        "pictureOne":"https://img.freepik.com/free-vector/3d-realism-pineapple-juice-fresh-fruit-vector-illustration_433751-13.jpg?w=740&t=st=1699355963~exp=1699356563~hmac=d4751f325124e1a387f6737ff23000bda1f736967eb4405eb209a1aa78036789",
+        "pictureTwo":"https://img.freepik.com/free-photo/pineapple-fruit_1203-7746.jpg?w=360&t=st=1699355980~exp=1699356580~hmac=be3bc41196a897de2acd2fbb47e805af85ac2699260670294abfe2c121b27730"
     },
     
     {
