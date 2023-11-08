@@ -43,15 +43,15 @@ const Category = () => {
           <TabPanel className="mt-7">
             {
               fruitesLits.slice(0,8).map(item=><div className="my-2 cursor-pointer" key={item.id}>
-              <div className="flex gap-5 items-center">
-              <img className="w-20 h-14 px-2" src={item.image} alt="" />
              <Link to={`/${item.id}`}>
+              <div className="flex gap-5 items-center hover:shadow-lg duration-500">
+              <img className="w-20 h-14 px-2" src={item.image} alt="" />
              <div className="my-2">
               <p className="text-lg font-semibold hover:text-orange-300 duration-500 cursor-pointer">{item.name}</p>
               <p className=" text-gray-500 font-normal">{item.subTitle}</p>
               </div>
-             </Link>
               </div>
+             </Link>
               </div>)
             }
           </TabPanel>
@@ -59,15 +59,15 @@ const Category = () => {
           <TabPanel className="mt-10">
             {
               fruitesLits.slice(8,18).map(item=><div className="my-2 cursor-pointer" key={item.id}>
-              <div className="flex gap-5 items-center">
-              <img className="w-20 h-14 px-2" src={item.image} alt="" />
              <Link to={`/${item.id}`}>
+              <div className="flex gap-5 items-center hover:shadow-lg duration-500">
+              <img className="w-20 h-14 px-2" src={item.image} alt="" />
              <div className="my-2">
               <p className="text-lg font-semibold hover:text-orange-300 duration-500 cursor-pointer">{item.name}</p>
               <p className=" text-gray-500 font-normal">{item.subTitle}</p>
               </div>
-             </Link>
               </div>
+             </Link>
               </div>)
             }
           </TabPanel>
