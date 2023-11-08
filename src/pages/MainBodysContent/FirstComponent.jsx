@@ -15,7 +15,7 @@ const FirstComponent = ({data}) => {
 
            {/* img */}
             <div className="h-full py-5 px-2 rounded-md bg-white">
-            <img className="rounded-md h-full w-full" src={pictureOne} alt="" />
+            <img className="rounded-md h-fit w-fit" src={pictureOne} alt="" />
             </div>
            {/* img */}
         </div>
