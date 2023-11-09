@@ -1,7 +1,7 @@
 
 const Review = () => {
     return (
-        <div className="lg:ml-20 py-2 pb-5 mt-2">
+        <div className="lg:ml-20 py-2 lg:pb-5 mt-2">
             <h2 className="text-lg font-bold">Was this helpful?</h2>
             <div className="py-3 flex gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewBox="0 0 29 28" fill="none">
