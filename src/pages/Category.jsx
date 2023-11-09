@@ -12,10 +12,10 @@ const Category = () => {
   },[]);
 
   return (
-    <div className="h-full w-full rounded-md bg-white shadow-xl pt-2 ">
+    <div className="hidden lg:block h-full w-full rounded-md bg-white shadow-xl pt-2 ">
       {/* navBar */}
       <div>
-        <div className="flex  justify-between rounded-md items-center gap-5 shadow-md bg-red-50 mx-2">
+        <div className="hidden lg:flex  justify-between rounded-md items-center gap-5 shadow-md bg-red-50 mx-2">
           <div className="py-2 px-3">
             <input
               type="text"

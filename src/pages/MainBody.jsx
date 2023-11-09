@@ -4,6 +4,7 @@ import Socialimage from "./MainBodysContent/Socialimage";
 import FirstComponent from "./MainBodysContent/FirstComponent";
 import SecondComponent from "./MainBodysContent/SecondComponent";
 import ThirdComponent from "./MainBodysContent/ThirdComponent";
+import Review from "./Review";
 
 const MainBody = () => {
   const param = useParams();
@@ -18,7 +19,8 @@ const MainBody = () => {
   }, [loader, param.id]);
 
   return (
-    <div className="grid grid-cols-12 pt-2">
+    <div className="ml-2 lg:ml-0">
+      <div className="lg:grid lg:grid-cols-12 pt-2">
       {/* social Img */}
       <div className="col-span-1">
         <Socialimage />
@@ -28,9 +30,12 @@ const MainBody = () => {
          <FirstComponent data={data}/>
          <SecondComponent/>
          <ThirdComponent data={data}/>
-        
-
       </div>
+    </div>
+    {/* review */}
+    <div>
+      <Review/>
+    </div>
     </div>
   );
 };

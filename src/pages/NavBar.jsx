@@ -70,7 +70,7 @@ const NavBar = () => {
               to={"/"}
               className="col-span-8 flex items-center justify-center"
             >
-              <img className="w-[140px]" src={logo} alt="" />
+              <img className="w-[70px]" src={logo} alt="" />
             </Link>
             <div className="col-span-2 mr-1">
               <p className="text-[#0076CE] font-bold rounded-lg border-2 border-blue-500 py-2 w-full text-center text-xs">
@@ -80,7 +80,7 @@ const NavBar = () => {
             <div
               className={
                 menuOpen
-                  ? "fixed top-0 left-0 w-[75%] sm:hidden h-screen p-10 ease-in-out duration-500 bg-gray-950"
+                  ? "fixed top-0 left-0 w-[75%] sm:hidden h-screen p-10 ease-in-out duration-500 bg-slate-200"
                   : "fixed left-[-100%] top-0 p-10 sm:hidden h-screen ease-in-out duration-500"
               }
             >
@@ -88,7 +88,7 @@ const NavBar = () => {
               <div className="flex w-full items-center justify-between">
                 <div>
                   <Link className="/">
-                    <img className="w-[138px]" src={logo} alt="" />
+                    <img className="w-[100px]" src={logo} alt="" />
                   </Link>
                 </div>
                 <div onClick={toggleMenu} className="cursor-pointer">
@@ -98,32 +98,7 @@ const NavBar = () => {
 
               {/* mobile device menu */}
               <div className="flex-col py-3 font-medium text-white mt-4">
-                <ul>
-                  <li className="py-3 hover:underline">
-                    <Link>Home</Link>
-                  </li>
-                  <li className="py-3 hover:underline">
-                    <Link>Solutions</Link>
-                  </li>
-                  <li className="py-3 hover:underline">
-                    <Link>Features</Link>
-                  </li>
-                  <li className="py-3 hover:underline">
-                    <Link>Blogs</Link>
-                  </li>
-                  <li className="py-3 hover:underline">
-                    <Link>About</Link>
-                  </li>
-
-                  <div className="mt-6 grid grid-rows-2 gap-4">
-                    <p className="border-2 border-white rounded-md text-center font-medium py-2 text-sm">
-                      Login
-                    </p>
-                    <p className="border-2 border-white rounded-md text-center font-medium py-2 text-sm bg-white text-black">
-                      Register
-                    </p>
-                  </div>
-                </ul>
+                {/* something */}
               </div>
             </div>
           </div>

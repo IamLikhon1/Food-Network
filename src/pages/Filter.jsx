@@ -2,7 +2,7 @@ import { IoIosArrowUp } from "react-icons/io";
 import square from "../assets/text-square.png";
 const Filter = () => {
   return (
-    <div className="rounded-md bg-white shadow-xl py-10 px-4 w-full">
+    <div className="hidden lg:block rounded-md bg-white shadow-xl py-10 px-4 w-full">
       <div className="flex justify-between items-center text-lg">
         <div className="flex gap-3 items-center">
           <img src={square} alt="" />
