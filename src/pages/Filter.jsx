@@ -23,7 +23,7 @@ const Filter = () => {
         <h2 className="text-base font-medium">Choose Vitamin Type</h2>
         <div className="form-control w-full my-3">
           <select className="select select-bordered">
-            <option disabled selected defaultValue={'All Vitamin'}>
+            <option disabled selected>
               All Vitamin
             </option>
             <option value='Vitamin A'>Vitamin A</option>

@@ -1,15 +1,24 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useQuery } from "@tanstack/react-query";
 
 const SmallSidebar = () => {
-    const [fruitsLits,setFruitsLits]=useState([]);
-  useEffect(()=>{
-    fetch('fruites.json')
-    .then(res=>res.json())
-    .then(data=>setFruitsLits(data))
-  },[]);
+  //   const [fruitsLits,setFruitsLits]=useState([]);
+  // useEffect(()=>{
+  //   fetch('fruites.json')
+  //   .then(res=>res.json())
+  //   .then(data=>setFruitsLits(data))
+  // },[]);
+
+  const {data:fruitsLits}=useQuery({
+    queryKey:['fruitsData'],
+    queryFn:async ()=>{
+      const res=await fetch('fruites.json')
+      return res.json();
+    }
+  })
     return (
         <div>
             <div className="lg:block h-full w-full rounded-md bg-white shadow-xl pt-2 ">
@@ -25,7 +34,7 @@ const SmallSidebar = () => {
 
           <TabPanel className="mt-7">
             {
-              fruitsLits.slice(0,8).map(item=><div className="my-2 cursor-pointer" key={item.id}>
+              fruitsLits?.slice(0,8).map(item=><div className="my-2 cursor-pointer" key={item.id}>
              <Link to={`/${item.id}`}>
               <div className="flex gap-5 items-center hover:shadow-lg duration-500">
               <img className="w-20 h-14 px-2" src={item.image} alt="" />
@@ -41,7 +50,7 @@ const SmallSidebar = () => {
 
           <TabPanel className="mt-10">
             {
-              fruitsLits.slice(8,18).map(item=><div className="my-2 cursor-pointer" key={item.id}>
+              fruitsLits?.slice(8,18).map(item=><div className="my-2 cursor-pointer" key={item.id}>
              <Link to={`/${item.id}`}>
               <div className="flex gap-5 items-center hover:shadow-lg duration-500">
               <img className="w-20 h-14 px-2" src={item.image} alt="" />

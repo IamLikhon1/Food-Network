@@ -1,16 +1,29 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import glass from "../assets/searchGlass.png";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useQuery } from "@tanstack/react-query";
+import Spinner from "../component/Spinner";
 const Category = () => {
-  const [fruitesLits,setFruitesLits]=useState([]);
-  useEffect(()=>{
-    fetch('fruites.json')
-    .then(res=>res.json())
-    .then(data=>setFruitesLits(data))
-  },[]);
+  // const [fruitesLits,setFruitesLits]=useState([]);
+  // useEffect(()=>{
+  //   fetch('fruites.json')
+  //   .then(res=>res.json())
+  //   .then(data=>setFruitesLits(data))
+  // },[]);
 
+  const { data: fruitsLits, isLoading } = useQuery({
+    queryKey: ['fruitsData'],
+    queryFn: async () => {
+      const res = await fetch('fruites.json')
+      return res.json()
+    }
+
+  })
+  if (isLoading) {
+    return <Spinner/>;
+  }
   return (
     <div className="hidden lg:block h-full w-full rounded-md bg-white shadow-xl pt-2 ">
       {/* navBar */}
@@ -42,32 +55,32 @@ const Category = () => {
 
           <TabPanel className="mt-7">
             {
-              fruitesLits.slice(0,8).map(item=><div className="my-2 cursor-pointer" key={item.id}>
-             <Link to={`/${item.id}`}>
-              <div className="flex gap-5 items-center hover:shadow-lg duration-500">
-              <img className="w-20 h-14 px-2" src={item.image} alt="" />
-             <div className="my-2">
-              <p className="text-lg font-semibold hover:text-orange-300 duration-500 cursor-pointer">{item.name}</p>
-              <p className=" text-gray-500 font-normal">{item.subTitle}</p>
-              </div>
-              </div>
-             </Link>
+              fruitsLits?.slice(0, 8).map(item => <div className="my-2 cursor-pointer" key={item.id}>
+                <Link to={`/${item.id}`}>
+                  <div className="flex gap-5 items-center hover:shadow-lg duration-500">
+                    <img className="w-20 h-14 px-2" src={item.image} alt="" />
+                    <div className="my-2">
+                      <p className="text-lg font-semibold hover:text-orange-300 duration-500 cursor-pointer">{item.name}</p>
+                      <p className=" text-gray-500 font-normal">{item.subTitle}</p>
+                    </div>
+                  </div>
+                </Link>
               </div>)
             }
           </TabPanel>
 
           <TabPanel className="mt-10">
             {
-              fruitesLits.slice(8,18).map(item=><div className="my-2 cursor-pointer" key={item.id}>
-             <Link to={`/${item.id}`}>
-              <div className="flex gap-5 items-center hover:shadow-lg duration-500">
-              <img className="w-20 h-14 px-2" src={item.image} alt="" />
-             <div className="my-2">
-              <p className="text-lg font-semibold hover:text-orange-300 duration-500 cursor-pointer">{item.name}</p>
-              <p className=" text-gray-500 font-normal">{item.subTitle}</p>
-              </div>
-              </div>
-             </Link>
+              fruitsLits?.slice(8, 18).map(item => <div className="my-2 cursor-pointer" key={item.id}>
+                <Link to={`/${item.id}`}>
+                  <div className="flex gap-5 items-center hover:shadow-lg duration-500">
+                    <img className="w-20 h-14 px-2" src={item.image} alt="" />
+                    <div className="my-2">
+                      <p className="text-lg font-semibold hover:text-orange-300 duration-500 cursor-pointer">{item.name}</p>
+                      <p className=" text-gray-500 font-normal">{item.subTitle}</p>
+                    </div>
+                  </div>
+                </Link>
               </div>)
             }
           </TabPanel>
